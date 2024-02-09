@@ -1,0 +1,472 @@
+* {
+  padding: 0px;
+  margin: 0%;
+  text-decoration: none;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.continair {
+  width: 100%;
+  margin: 0px auto;
+}
+
+nav {
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.brand-name {
+    font-size: 30px;
+    font-weight:bold;
+  }
+.Menu {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+.Menu a {
+  cursor: pointer;
+  color: #5f5d5d;
+}
+.button-login {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 15%;
+  gap: 15px;
+}
+.loginBtn{
+  color:#b84627;
+  cursor: pointer;
+}
+.join-button {
+  background-color: #c94420;
+  padding: 10px 15px;
+  color: #ebdcdc;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 7px;
+}
+#section-top {
+background: url('images/smiling_woman.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  height: 729px;
+  background-size: cover;
+  background-color: #dbd7d7;
+}
+.main-content {
+  display: flex;
+  margin-right: 100px;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 480px;
+  height: 350px;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+.training{
+    color: #d04923;
+    font-size: 15px;
+    font-weight:bold;
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+.best{
+  font-size: 50px;
+  font-weight: bold;
+}
+.normal-text{
+    color: #616060;
+    font-size: large;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.join-us-btn1 {
+  padding: 15px  30px;
+  width: 150px;
+  color: rgb(230, 226, 226);
+  background-color: #d64117;
+  font-weight:bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 7px;
+}
+
+.doctors-specialize {
+  height: 834px;
+  margin: 0px 14%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 80px;
+}
+.t-doctors span {
+    color: #ed5d35;
+    font-weight:bold;
+    margin-bottom: 20px;
+  }
+.t-doctors {
+  display: flex;
+  width: 60%;
+  height: 134px;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+}
+
+.title-page-doctors1 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.t-doctors p {
+  color: #706f6f;
+}
+.doctors-card-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.doctors-car {
+  display: flex;
+  justify-content: space-evenly;
+  height: 295px;
+  padding: 10px 20px;
+  flex-direction: column;
+  box-shadow: 0 0 20px rgb(221, 219, 219);
+  width: 300px;
+}
+.doctors-car img {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  background-color: #5a9ef1;
+  border-radius: 50%;
+}
+.line{
+    background-color: #e42f2f;
+  width: 60px;
+  height: 2px;
+
+}
+.doctors-car p {
+  color: #737373;
+}
+.meet-experts {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 900px;
+  margin: 0 14%;
+}
+.main-meet-experts {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 500px;
+}
+.images-side-meet {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  gap: 15px;
+ 
+}
+.hr-image-meet {
+  display: flex;
+  gap: 10px;
+}
+.two-nurse {
+  width: 434px;
+  border-radius: 14px;
+  height: 253px;
+}
+.doctor-imge-suger {
+  width: 190px;
+  height: 220px;
+  border-radius: 10px;
+}
+.rectangle-img {
+  width: 240px;
+  height: 250px;
+}
+.right-meet-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 520px;
+}
+.meet-card-trusted-fileds {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 418px;
+  height: 111px;
+}
+.number-trusted-fileds span {
+ background-color:#d4c2c2;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 50%;
+  color: #de2f2f;
+}
+.right-meet-main p {
+  color: #6d6c6c;
+}
+
+.our-impressions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 650px;
+    margin: 0 14%;
+    gap: 150px;
+  }
+  
+  .title-impressions {
+    width: 370px;
+    
+  }
+  .impressions{
+    margin-bottom: 20px;
+  }
+  .our-impressions-img {
+    width: 500px;
+    height: 400px;
+  }
+  
+  .rectangle-img-impreesions, .herbal {
+    border-radius: 26px;
+  }
+  
+  .rectangle-img-impreesions {
+    position: relative;
+    width: 325px;
+    height: 360px;
+    z-index:1;
+  }
+  
+  .herbal {
+    position: absolute;
+    right: 180px;
+    width: 350px;
+    height: 340px;
+  }
+
+.mpressions2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 1000px;
+  margin: 0px 14%;
+}
+.card-list-our-imperssions2 {
+  height: 550px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.card-our-imperssions2 {
+  width: 300px;
+  height: 600px;
+}
+.card-our-imperssions2-icons {
+  background-image: url('images/ambulance.png');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 280px;
+  width: 300px;
+  gap: 170px;
+ 
+}
+.card-list-our-imperssions2 .sale {
+  align-self: start;
+  margin-left: 20px;
+  background: #df2525;
+  color: rgb(240, 227, 227);
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 4px 10px;
+  font-weight:bold;
+}
+.img-our-impressions2 img {
+  background-color: rgb(250, 236, 236);
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+}
+.card-content-imperssions2 {
+  display: flex;
+  flex-direction: column;
+  padding: 28px 33px;
+  gap: 15px;
+}
+.pr-name-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.pr-name-rating span {
+  font-weight: bold;
+  color: #f44312;
+}
+.stars {
+ background-color: #2e417d;
+  display: flex;
+  align-items: center;
+  width: 45px;
+  height: 27px;
+  border-radius: 16px;
+  padding: 5px 5px;
+}
+.stars p {
+  font-size: 13px;
+  font-weight: bold;
+  color:white !important;
+  
+}
+.title-impressions-2 {
+  font-weight:bold;
+  font-size: 17px;
+}
+.card-content-imperssions2 p {
+  color:grey;
+}
+.down-sales {
+  color:gray;
+  font-weight:bold;
+  width: 100px;
+}
+.down-sales img {
+  cursor: pointer;
+}
+.discount-prices-imperssion2 {
+display: flex;
+  width: 100px;
+  height: 40px;
+  font-weight:bold;
+  padding: 3px 5px;
+  
+}
+.discount {
+  color: blue;
+}
+.noneDis {
+  color:rgba(128, 128, 128, 0.814);
+}
+.Impressions2-btn-learnMore {
+display: flex;
+  border: 2px solid #ef0b0b;
+  color: #ef0b0b;
+  border-radius:40px;
+  padding: 10px 15px;
+  width: 160px;
+  height: 50px;
+  font-weight:bold;
+  cursor: pointer;
+  align-items: center;
+}
+
+
+#pricing {
+  width: 100%;
+  background-color:navy;
+}
+.pricing {
+  height: 1000px;
+  margin: 0px 14%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.pricing-title {
+  color: rgb(239, 232, 232);
+}
+.pricing-title p {
+  color: white;
+}
+.pricing-card-list {
+  display: flex;
+  gap: 40px;
+}
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 30px;
+  background-color: white;
+  width: 350px;
+  padding: 50px 30px;
+}
+.herat {
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #db3a3a;
+}
+.pricing-card h1 {
+  font-weight:bold;
+  font-size: 24px;
+}
+.pricing-card span {
+  color:gray;
+  font-weight:bold;
+}
+.price-per-month {
+  display: flex;
+  flex-direction: column;
+}
+.price-dolor {
+  font-size: 40px;
+  font-weight: 700;
+  color: #f04848 !important;
+}
+.per-month {
+  color: #81bbf1 !important;
+  font-weight:bold;
+}
+.pricing-card p {
+  color: #737373;
+}
+.pricing-card button {
+  padding: 15px 40px;
+  background: #f25428;
+  border-radius: 7px;
+  width: 245px;
+  height: 50px;
+  border: none;
+  color: white;
+  font-weight:bold;
+  cursor: pointer;
+}
+.pricing-card ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.pricing-card ul li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.pricing-card ul li i {
+  padding: 8px;
+  color: white;
+  background-color: #bdbdbd;
+  border-radius: 50%;
+}
+.pricing-card .card i {
+  background-color:rgb(91, 178, 91);
+}
